@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Footer from "./Footer";
 import Residencies from "./Residencies";
 import Value from "./Value";
+import Contact from "./Contact";
 
 const Homepage = () => {
     return (
@@ -12,6 +13,7 @@ const Homepage = () => {
             <Hero/>
             <Residencies/>
             <Value/>
+            <Contact/>
             <Footer/>
         </div>
     )
