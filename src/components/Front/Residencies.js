@@ -19,7 +19,7 @@ const Residencies = () => {
                 <div onClick={()=>navigate("../properties")}
                  className='mb-4 mx-4 group p-2 py-6 flex flex-col justify-between items-center rounded-3xl hover:bg-gradient-to-b from-violet-50 to-purple-200 hover:cursor-pointer'>
                     {/* image */}
-                    <div className='w-72 h-64' style={{ backgroundImage: `url(${'./pr1.png'})`, backgroundSize: 'cover' }}>
+                    <div className='w-72 h-64 rounded-2xl' style={{ backgroundImage: `url(${'./pr1.png'})`, backgroundSize: 'cover' }}>
                     </div>
                     {/* price */}
                     <p className='mt-2 font-bold text-2xl text-gray-400'><span className='text-orange-600'>$</span>47,043</p>
@@ -38,7 +38,7 @@ const Residencies = () => {
                 {/* card 2 */}
                 <div className='mb-4 mx-4 p-2 py-6 group flex flex-col justify-between items-center rounded-3xl hover:bg-gradient-to-b from-violet-50 to-purple-200 hover:cursor-pointer'>
                     {/* image */}
-                    <div className=' w-72 h-64' style={{ backgroundImage: `url(${'./pr2.png'})`, backgroundSize: 'cover', }}>
+                    <div className=' w-72 h-64 rounded-2xl' style={{ backgroundImage: `url(${'./pr2.png'})`, backgroundSize: 'cover', }}>
                     </div>
                     {/* price */}
                     <p className='mt-2 font-bold text-2xl text-gray-400'><span className='text-orange-600'>$</span>29,005</p>
@@ -57,7 +57,7 @@ const Residencies = () => {
                 {/* card 3 */}
                 <div className='mb-4 mx-4 p-2 group py-6 flex flex-col justify-between items-center rounded-3xl hover:bg-gradient-to-b from-violet-50 to-purple-200 hover:cursor-pointer'>
                     {/* image */}
-                    <div className=' w-72 h-64' style={{ backgroundImage: `url(${'./pr3.png'})`, backgroundSize: 'cover', }}>
+                    <div className=' w-72 h-64 rounded-2xl' style={{ backgroundImage: `url(${'./pr3.png'})`, backgroundSize: 'cover', }}>
                     </div>{/* price */}
                     <p className='mt-2 font-bold text-2xl text-gray-400'><span className='text-orange-600'>$</span>32,300</p>
                     {/* property name */}

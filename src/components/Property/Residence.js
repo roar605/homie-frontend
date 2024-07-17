@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 import AboutProperty from './AboutProperty'
+import PropertyImages from './PropertyImages'
 const Residence = () => {
     return (
         <div className='mt-20 '>
@@ -26,16 +27,9 @@ const Residence = () => {
                 </div>
             </div>
             <div className='w-[70%] mx-auto mt-2 gap-2 flex overflow-hidden '>
-                <div className='w-[70%] m-auto'>
-                    <img src='./pr1.png' alt='property' />
-                </div>
-                <div className='w-[30%] m-auto flex flex-col gap-1'>
-                    <img src='./pr2.png' alt='property' width={230} />
-                    <img src='./pr2.png' alt='property' width={230} />
-                    <img src='./pr2.png' alt='property' width={230} />
-                </div>
+                <PropertyImages/>
             </div>
-            <div className='border-t-2 my-8 bg-slate-100'>
+            <div className='border-t-2 my-8 mx-auto bg-slate-100'>
                 <AboutProperty />
             </div>
         </div>
