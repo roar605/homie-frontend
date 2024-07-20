@@ -2,12 +2,14 @@ import React from 'react'
 import Map from './Map'
 import MoreAboutProperty from './MoreAboutProperty'
 import ContactSeller from './ContactSeller'
+import Facilities from './Facilities'
 
 const AboutProperty = () => {
     return (
         <div className='w-[70%]  m-auto'>
             {/* navigation navbar */}
             <div className='my-4 border-b-2 bg-white '>
+                
                 <ul className='flex justify-between p-2 m-4 text-xl font-semibold text-gray-600'>
                     <li className=' hover:cursor-pointer border-violet-500 hover:border-b-2'>Location</li>
                     <li className=' hover:cursor-pointer border-violet-500 hover:border-b-2'>More About Property</li>
@@ -22,6 +24,7 @@ const AboutProperty = () => {
                 <div className='w-2/3 m-auto '>
                     <Map />
                     <MoreAboutProperty/>
+                    <Facilities/>
                 </div>
                 {/* seller contact */}
                 <ContactSeller/>
